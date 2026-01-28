@@ -4,78 +4,190 @@
   <meta charset="UTF-8">
   <title>Fantastitch — Designers & Kit Manufacturers</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-      background-color: #ffffff;
-      color: #222;
       margin: 0;
       padding: 0;
       line-height: 1.6;
+      background-color: #fff;
+      color: #222;
     }
-
     .container {
       max-width: 1100px;
       margin: 0 auto;
       padding: 40px 20px;
     }
-
     h1 {
       font-size: 32px;
       margin-bottom: 10px;
     }
-
     p.subtitle {
       color: #555;
       margin-bottom: 40px;
       max-width: 700px;
     }
-
     h2 {
       font-size: 24px;
       margin-top: 60px;
       margin-bottom: 20px;
     }
-
     table {
       width: 100%;
       border-collapse: collapse;
       margin-bottom: 40px;
     }
-
     th, td {
       text-align: left;
-      padding: 14px 12px;
+      padding: 12px;
       border-bottom: 1px solid #eaeaea;
       vertical-align: middle;
     }
-
     th {
       font-weight: 600;
-      color: #333;
       background-color: #fafafa;
     }
-
     tr:hover {
       background-color: #fafafa;
     }
-
     a {
       color: #0066cc;
       text-decoration: none;
     }
-
     a:hover {
       text-decoration: underline;
     }
-
     footer {
       margin-top: 80px;
       font-size: 14px;
       color: #777;
     }
-
     @media (max-width: 768px) {
       table, thead, tbody, th, td, tr {
-        di
+        display: block;
+      }
+      th {
+        background-color: transparent;
+      }
+      td {
+        border: none;
+        padding-left: 50%;
+        position: relative;
+      }
+      td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 10px;
+        font-weight: bold;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Fantastitch — Designers & Kit Manufacturers</h1>
+    <p class="subtitle">
+      A curated list of cross stitch designers and kit manufacturers who collaborate with <strong>Fantastitch</strong>.
+    </p>
+
+    <h2>🧺 Kit Manufacturers</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Instagram</th>
+          <th>Store</th>
+          <th>Website</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-label="Name">Merejka</td>
+          <td data-label="Instagram"><a href="https://www.instagram.com/merejkatm/">Instagram</a></td>
+          <td data-label="Store"><a href="https://www.amazon.com/s?me=A2CTB0YP9441F">Amazon</a></td>
+          <td data-label="Website"><a href="https://merejka.com">Website</a></td>
+        </tr>
+        <tr>
+          <td data-label="Name">Lelia</td>
+          <td data-label="Instagram"><a href="https://www.instagram.com/lelia_ua_/">Instagram</a></td>
+          <td data-label="Store">—</td>
+          <td data-label="Website"><a href="https://lelia.shop">Website</a></td>
+        </tr>
+        <tr>
+          <td data-label="Name">Fruzel_ok</td>
+          <td data-label="Instagram"><a href="https://www.instagram.com/fruzel_ok/">Instagram</a></td>
+          <td data-label="Store">—</td>
+          <td data-label="Website"><a href="https://fruzelok.com.ua/catalog/nabory-fruzelok">Website</a></td>
+        </tr>
+        <tr>
+          <td data-label="Name">KOMOD</td>
+          <td data-label="Instagram"><a href="https://www.instagram.com/komod.for.you/">Instagram</a></td>
+          <td data-label="Store">—</td>
+          <td data-label="Website"><a href="https://komodforyou.com.ua">Website</a></td>
+        </tr>
+        <tr>
+          <td data-label="Name">Povitrulya</td>
+          <td data-label="Instagram"><a href="https://www.instagram.com/povitrulya_ua">Instagram</a></td>
+          <td data-label="Store"><a href="https://www.etsy.com/shop/PovitrulyaHandmade">Etsy</a></td>
+          <td data-label="Website"><a href="https://www.amazon.com/povitrulya">Amazon</a></td>
+        </tr>
+        <tr>
+          <td data-label="Name">YuMI</td>
+          <td data-label="Instagram"><a href="https://www.instagram.com/maria.yurkevich/">Instagram</a></td>
+          <td data-label="Store">—</td>
+          <td data-label="Website"><a href="https://virena.ua/kartyny-na-plastyku/">Website</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>🧵 Designers</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Instagram</th>
+          <th>Etsy</th>
+          <th>Website</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-label="Name">Zulifa Bee Helpers</td>
+          <td data-label="Instagram"><a href="https://www.instagram.com/zulifa_bee_helpers">Instagram</a></td>
+          <td data-label="Etsy"><a href="https://zulifabeehelpers.etsy.com/">Etsy</a></td>
+          <td data-label="Website">—</td>
+        </tr>
+        <tr>
+          <td data-label="Name">WonderlandUkraine</td>
+          <td data-label="Instagram">—</td>
+          <td data-label="Etsy"><a href="https://www.etsy.com/uk/shop/WonderlandUkraine">Etsy</a></td>
+          <td data-label="Website">—</td>
+        </tr>
+        <tr>
+          <td data-label="Name">StitchHappensUA</td>
+          <td data-label="Instagram"><a href="https://www.instagram.com/stitch.happens.ua">Instagram</a></td>
+          <td data-label="Etsy"><a href="https://www.etsy.com/uk/shop/StitchHappensUA">Etsy</a></td>
+          <td data-label="Website">—</td>
+        </tr>
+        <tr>
+          <td data-label="Name">IanaCrossStitch</td>
+          <td data-label="Instagram"><a href="https://www.instagram.com/iana_crossstitch/">Instagram</a></td>
+          <td data-label="Etsy"><a href="https://www.etsy.com/shop/yanostitch">Etsy</a></td>
+          <td data-label="Website">—</td>
+        </tr>
+        <tr>
+          <td data-label="Name">Katestitchland</td>
+          <td data-label="Instagram"><a href="https://www.instagram.com/katestitchland/">Instagram</a></td>
+          <td data-label="Etsy"><a href="https://www.etsy.com/shop/xstitchplace">Etsy</a></td>
+          <td data-label="Website"><a href="https://katestitchland.com">Website</a></td>
+        </tr>
+        <!-- Ти можеш додати решту дизайнерів аналогічно -->
+      </tbody>
+    </table>
+
+    <footer>
+      _This list is continuously updated._
+    </footer>
+  </div>
+</body>
+</html>
